@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 2rem;
+    height: 100vh;
+}
+
+/* Estilos para la tarjeta de testimonios */
+.testimonials__card {
+    /* Posicionamiento y dimensiones */
+    position: relative;
+    height: 300px;
+    width: 300px;
+    /* Centramos la tarjeta en la página */
+    margin: 0 auto;
+    /* Efecto de hover */
+    overflow: hidden;
+}
+
+/* Estilos para la imagen dentro de la tarjeta */
+.testimonials__card--img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir toda el área */
+    display: block;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.testimonials__card--content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    background-color: lightgreen;
+    padding: 1rem;
+    /* Ocultamos el contenido inicialmente */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Mostramos el contenido al pasar el ratón por encima de la tarjeta */
+.testimonials__card:hover .testimonials__card--content {
+    visibility: visible;
+    opacity: 0.49;
+}
+
+/* Estilos para el párrafo dentro del contenido */
+.testimonials__card--content p {
+    margin: 0;
+    word-wrap: break-word;
+}

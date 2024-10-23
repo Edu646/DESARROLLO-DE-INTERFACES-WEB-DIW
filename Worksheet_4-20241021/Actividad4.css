@@ -1,0 +1,27 @@
+/*div div div a{ 
+    background-color:red; 
+    color:yellow; 
+    }
+*/
+/*Esto lo que hace es que la etiqueta a que es la que esta dentro de los div es la que se pone de color rojo*/
+
+div{
+    background-color: lightgray;
+}
+
+div p {
+    background-color:blue; 
+    color:white; 
+}
+
+#abuelo{
+    border: solid blue 1px;
+}
+
+.padre > a {
+    background-color:limegreen;
+}
+
+.madre{
+    background-color:lightpink;
+}

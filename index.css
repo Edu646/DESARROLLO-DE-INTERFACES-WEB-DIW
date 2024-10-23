@@ -1,0 +1,25 @@
+body{
+    margin: 2px;
+  
+}
+
+.S1{
+    margin: 2px;
+    background-color: rgb(181, 0, 198);
+
+}
+
+.S2{
+    margin: 2px;
+    background-color: rgb(255, 0, 0);
+}
+
+.S3{
+    margin: 2px;
+    background-color: rgb(237, 226, 10);
+}
+
+.S4{
+    margin: 2px;
+    background-color: rgb(17, 255, 0);
+}

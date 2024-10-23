@@ -1,0 +1,38 @@
+div, p {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 2rem;
+    background-color: #888;
+    padding: 0.5rem;
+  }
+  
+  .borde {
+    border: 2px solid green;
+  }
+  
+  .contorno {
+    outline: 2px solid green;
+  }
+  
+  .clip {
+    background-clip: content-box;
+  }
+  
+  /* Para pantallas más grandes (desktop) */
+  @media (min-width: 768px) {
+    .borde, .contorno {
+      border-width: 4px;
+    }
+  }
+  
+  /* Para pantallas más pequeñas (móvil) */
+  @media (max-width: 767px) {
+    .borde, .contorno {
+      border-width: 2px;
+    }
+  }
