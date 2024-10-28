@@ -1,0 +1,28 @@
+.box {
+    width: 50px;
+    height: 50px; 
+
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#ex01.box:first-child {
+    transform: translate(100px, 50px);
+}
+
+#ex02.box:last-child {
+    transform: scale(2);
+}
+
+#ex03.box:first-child {
+    transform: rotate(45deg);
+}
+
+#ex03.box:last-child {
+    transform-origin: top left; /* Set origin to top left corner */
+    transform: rotate(45deg);
+}
+
+#ex04.box:first-child {
+    transform: skewX(25deg);
+}

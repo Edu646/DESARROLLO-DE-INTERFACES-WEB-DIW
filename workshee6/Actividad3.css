@@ -1,0 +1,13 @@
+.skills__design--progress {
+    width: 200px; 
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 5px;
+  }
+  
+  .skills__design--progress__1 {
+    height: 100%;
+    background-color: #4CAF50; 
+    width: 70%; 
+    border-radius: 5px;
+  }

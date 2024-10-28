@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="./ACT2.CSS"> </head>
+<body>
+    <fieldset>
+        <legend>¿QUIEN ERES?</legend>
+        <form>
+            <h2>Formulario de registro</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+
+            <label for="fecha">fecha</label>
+            <input type="date" id="date" name="fecha" required>
+    
+        </form>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>¿DE DONDE ERES?</legend>
+        <form>
+            
+            <label for="Ciudad">Ciudad</label>
+            <input type="text" id="Ciudad" name="Ciudad" required>
+            
+
+            <label for="Codigo_Postal">Codigo_Postal</label>
+            <input type="number" id="Codigo_Postal" name="Codigo_Postal" required>
+
+
+            <label for="pais">pais</label>
+            <select>
+               <option value="">PERU</option>
+               <option value="">CHILE</option>
+               <option value="">ARGENTINA</option>
+               <option value="">ECUADOR</option>
+            </select>
+    
+        </form>
+    </fieldset>
+
+
+
+    <fieldset>
+        <legend>¿COMO QUIERES INICICAR SESION?</legend>
+        <form>
+            <h2>Formulario de registro</h2>
+            <label for="Nombre de usuario">Nombre de usuario:</label>
+            <input type="text" id="nombre_de_usuario" name="nombre_de_usuario" required>
+            
+
+            <label for="Password">Contraseña</label>
+            <input type="password" id="Password" name="nombre" required>
+
+
+            <label for="Password">Repite_Contraseña</label>
+            <input type="password" id="Password" name="nombre" required>
+    
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>¿CONDICIONES DE REGISTRO?</legend>
+        <label for="Opcion">Deseo recibir ofertas de mi entrevista</label>
+        <input type="radio" id="radio" name="radio" required> Una vez al dia
+        <input type="radio" id="radio" name="radio" required> Una vez a la semana
+        <input type="radio" id="radio" name="radio" required> Una vez al mes
+
+
+
+        <label for="Checkbox"></label>
+        <input type="checkbox" id="checkbox" name="checkbox "> Acepto el acuedo de servicios, el acuerdo de privacidad, el acuedo de cookies
+    </fieldset>
+
+
+<div>
+    <button type="submit">Crear cuenta</button>
+</div>
+   
+   
+</body>
+</html>

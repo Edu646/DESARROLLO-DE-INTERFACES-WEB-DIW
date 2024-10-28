@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+thead tr {
+    background-color: #3498db; /* Azul similar al de la imagen */
+    color: white;
+}
+.fil > th:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.fil2 > td:hover{
+background-color: olive;
+color: springgreen;
+}
+.fil3 > td:hover{
+    background-color: olive;
+color: springgreen;
+}
+.fil4 > td:hover{
+    background-color: olive;
+color: springgreen;
+}
+
+.fil5 > td:hover{
+    background-color: olive;
+color: springgreen;
+}
+tr:hover{
+    background-color: rgb(161, 188, 255);
+color: rgb(204, 0, 255);
+}
