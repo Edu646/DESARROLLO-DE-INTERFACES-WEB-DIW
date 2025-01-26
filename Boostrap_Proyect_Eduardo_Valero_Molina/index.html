@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Modal y Carrusel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/STYLE.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-music me-2"></i>Festival Musical
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-wrapper">
+        <div class="video-container">
+            <video autoplay muted loop class="background-video">
+                <source src="./videos/13003291_1920_1080_30fps.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+            <div class="content">
+                <h1>Festival Musical</h1>
+                <p>Entra y explora los mejores conciertos</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nueva sección sobre el significado de la página -->
+    <section class="page-meaning container text-center py-5">
+        <h2 class="mb-3">¿Qué es el Festival Musical?</h2>
+        <p class="lead">El Festival Musical es tu puerta de entrada a un mundo de entretenimiento en vivo. 
+            Aquí encontrarás los artistas más destacados, las actuaciones más emocionantes, y la oportunidad de vivir experiencias inolvidables. 
+            Explora nuestro contenido, descubre a tus artistas favoritos y planifica tu próxima gran aventura musical.</p>
+    </section>
+
+    <div id="carouselExample" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/BAD-BUNNY.jpg" class="d-block w-75 mx-auto" alt="Imagen 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bad Bunny</h5>
+                    <p>Vive la experiencia con su música.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/channels4_profile.jpg" class="d-block w-75 mx-auto" alt="Imagen 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Concierto Especial</h5>
+                    <p>No te pierdas los mejores momentos.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/images.jpeg" class="d-block w-75 mx-auto" alt="Imagen 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Artista Invitado</h5>
+                    <p>Descubre la sorpresa.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/X63SALOQLFA6XLUZYRP3D2ZB2A.avif" class="d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/03-feid-2022-cr-Sebastian-Sanchez-billboard-1548.webp" class="d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/16635686215839.jpg" class="d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/298041e-anuel-aa-1024x576.avif" class="d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/63722fd8e0cc3.png" class="d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/bizarrap-anuncia-sesion-50_103.webp" class="d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/17170537096913.jpg" class="d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Moradweb.jpg"d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/17GENE_3.png" class="d-block w-75 mx-auto" alt="Imagen 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Emoción única</h5>
+                    <p>Vive cada instante.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <ul class="nav nav-pills justify-content-center mt-5" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="pill-tab-0" data-bs-toggle="pill" href="#pill-tabpanel-0" role="tab" aria-controls="pill-tabpanel-0" aria-selected="true">Dia1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pill-tab-1" data-bs-toggle="pill" href="#pill-tabpanel-1" role="tab" aria-controls="pill-tabpanel-1" aria-selected="false">Dia2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pill-tab-2" data-bs-toggle="pill" href="#pill-tabpanel-2" role="tab" aria-controls="pill-tabpanel-2" aria-selected="false">Dia3</a>
+        </li>
+    </ul>
+
+    <div class="tab-content container py-3 mt-3">
+        <div class="tab-pane active" id="pill-tabpanel-0" role="tabpanel" aria-labelledby="pill-tab-0">
+            <h2>FECHA: 22/05/2025</h2>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Artista</th>
+                        <th>Hora</th>
+                        <th>Escenario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Annuel</td>
+                        <td>18:00 -- 20:00</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Omar Montes</td>
+                        <td>20:00 -- 22:00</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bad Bunny</td>
+                        <td>22:00 -- 23:30</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Saiko</td>
+                        <td>23:30 -- 00:30</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Botón para abrir el modal -->
+            <div class="text-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ticketModal">
+                    Comprar Entradas
+                </button>
+            </div>
+        </div>
+        <div class="tab-pane" id="pill-tabpanel-1" role="tabpanel" aria-labelledby="pill-tab-1">
+            <h2>FECHA: 23/05/2025</h2>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Artista</th>
+                        <th>Hora</th>
+                        <th>Escenario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Farruco</td>
+                        <td>18:00 -- 20:00</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Juan Magan</td>
+                        <td>20:00 -- 22:00</td>
+                        <td>Escenario Secundario</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ferxo</td>
+                        <td>22:00 -- 23:30</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Morad</td>
+                        <td>22:00 -- 23:30</td>
+                        <td>Escenario Secundario</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Botón para abrir el modal -->
+            <div class="text-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ticketModal">
+                    Comprar Entradas
+                </button>
+            </div>
+        </div>
+        <div class="tab-pane" id="pill-tabpanel-2" role="tabpanel" aria-labelledby="pill-tab-2">
+            <h2>FECHA: 24/05/2025</h2>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Artista</th>
+                        <th>Hora</th>
+                        <th>Escenario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bizarrap</td>
+                        <td>18:00 -- 20:00</td>
+                        <td>Escenario Secundario</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>El alfa</td>
+                        <td>20:00 -- 22:00</td>
+                        <td>Escenario Principal</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Quevedo</td>
+                        <td>22:00 -- 23:30</td>
+                        <td>Escenario Secundario</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>RVFV</td>
+                        <td>22:00 -- 23:30</td>
+                        <td>Escenario Secundario</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Botón para abrir el modal -->
+            <div class="text-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ticketModal">
+                    Comprar Entradas
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal General -->
+    <div class="modal fade" id="ticketModal" tabindex="-1" aria-labelledby="ticketModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ticketModalLabel">Comprar Entradas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="fecha" class="form-label">Fecha</label>
+                            <input type="date" class="form-control" id="fecha" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cantidad" class="form-label">Cantidad de Entradas</label>
+                            <input type="number" class="form-control" id="cantidad" min="1" max="10" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Confirmar Compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer>
+    <div class="footer-content container">
+        <div class="footer-section">
+            <h4>Festival Musical</h4>
+            <p>Experimenta la mejor música en vivo con nosotros.</p>
+        </div>
+        <div class="footer-section footer-links">
+            <h4>Links Rápidos</h4>
+            <a href="#">Inicio</a><br>
+            <a href="#">Programación</a><br>
+            <a href="#">Artistas</a><br>
+            <a href="#">Contacto</a>
+        </div>
+        <div class="footer-section">
+            <h4>Contacto</h4>
+            <p>Email: info@festivalmusicales.com</p>
+            <p>Teléfono: +34 123 456 789</p>
+        </div>
+        <div class="footer-section social-icons">
+            <h4>Síguenos</h4>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2025 Festival Musical. Todos los derechos reservados.</p>
+    </div>
+</footer>
+</html>

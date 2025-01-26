@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+/* Default (Mobile First) */
+header {
+    grid-area: header;
+    background: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav {
+    grid-area: nav;
+    background: #ccc;
+    padding: 1em;
+    display: none; /* Hidden in mobile */
+}
+
+main {
+    grid-area: main;
+    padding: 1em;
+}
+
+aside {
+    grid-area: aside;
+    background: #f4f4f4;
+    padding: 1em;
+    display: none; /* Hidden in mobile */
+}
+
+footer {
+    grid-area: footer;
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Tablet View */
+@media (min-width: 600px) {
+    .container {
+        grid-template-areas:
+            "header header"
+            "nav main"
+            "footer footer";
+        grid-template-columns: 1fr 3fr;
+    }
+    nav {
+        display: block;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 1024px) {
+    .container {
+        grid-template-areas:
+            "header header header"
+            "nav main aside"
+            "footer footer footer";
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    aside {
+        display: block;
+    }
+}

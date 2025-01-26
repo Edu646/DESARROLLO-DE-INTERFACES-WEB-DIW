@@ -1,0 +1,20 @@
+
+
+
+#fondo{
+    background-color: bisque;
+    width: 90pc;
+    height: 70pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circulo{
+    
+   
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: crimson;
+}
